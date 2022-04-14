@@ -100,8 +100,6 @@ namespace App.View
             watcher.IncludeSubdirectories = true;
             watcher.EnableRaisingEvents = true;
 
-            watcher.Filter = "*.txt";
-
             if (caminho.Contains("Parentes.txt"))
             {
                 CarregaParentes(Leitura.LerParentes(caminho));
